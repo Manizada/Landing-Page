@@ -214,3 +214,75 @@ footer .footer {
 .ion-icons {
     font-size: 26px;
 }
+
+@media(max-width: 992px) {
+    body {
+        width: 100%;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+    header {
+        display: flex;
+        text-align: center;
+    }
+
+    header .header-navbar {
+        text-align: center;
+        margin: auto;
+    }
+    
+    .apresentacao {
+        flex-direction: column-reverse;
+    }
+
+    .apresentacao .texto-apresentacao {
+        text-align: center;
+    }
+
+    .apresentacao img {
+        height: 400px;
+    }
+
+    #quem-somos {
+        flex-direction: column-reverse;
+        margin-top: 50px;
+    }
+
+    #quem-somos img {
+        min-width: 320px;
+        margin: auto;
+    }
+
+    .container-externo {
+        height: 160vh;
+        max-height: 1900px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 100%;
+    }
+
+    .list-services {
+        flex-direction: column;
+    }
+
+    .item-services img {
+        width: 50%;
+        margin: auto;
+    }
+
+    .vasos {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .vasos .vasos-texto {
+        max-width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
