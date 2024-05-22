@@ -71,3 +71,90 @@ header .menu {
     font-size: 18px;
 }
 
+#quem-somos {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#quem-somos h2 {
+    font-size: 32px;
+    color: green;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#quem-somos h2::before {
+    content: "";
+    height: 45px;
+    width: 3px;
+    margin-right: 5px;
+    background-color: green;
+    position: relative;
+}
+
+#quem-somos p {
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+#quem-somos img {
+    min-width: 420px;
+}
+
+.container-externo {
+    background-color: green;
+    width: 100%;
+    height: 400px;
+}
+
+#services {
+    flex-direction: column;
+    padding: 50px;
+    padding-bottom: 100px;
+}
+
+#services h2 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.list-services {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-services .item-services {
+    text-align: center;
+}
+
+.item-services a {
+    width: 220px;
+    background-color: white;
+    border-radius: 30px;
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 50px;
+    padding: 5px 10px;
+    color: green;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.item-services p {
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+}
+
+.item-services img {
+    width: 70%;
+    margin: auto;
+}
+
+
+
