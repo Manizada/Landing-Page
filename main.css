@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 ul {
@@ -38,6 +39,35 @@ header .header-navbar {
     align-items: center;
 }
 
+.header-navbar {
+    font-weight: 700;
+}
+
 header .menu {
     justify-content: space-between;
 }
+
+.apresentacao {
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao img {
+    height: 500px;
+}
+
+.apresentacao .texto-apresentacao {
+    min-height: 200px;
+}
+
+.texto-apresentacao h1 {
+    color: green;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.texto-apresentacao p {
+    font-size: 18px;
+}
+
