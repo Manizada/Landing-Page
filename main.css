@@ -29,6 +29,7 @@ header {
     display: flex;
     align-items: center;
     color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.75);
 }
 
 header .header-navbar {
@@ -156,5 +157,60 @@ header .menu {
     margin: auto;
 }
 
+.vasos {
+    min-height: 100vh;
+    padding-top: 50px;
+    flex-direction: column;
+}
 
+.vasos h2 {
+    font-size: 32px;
+    color: green;
+    margin: 10px 0;
+}
 
+.vasos p {
+    margin-bottom: 10px;
+
+}
+
+.vasos img {
+    border-radius: 30px;
+    float: left;
+    height: 200px;
+    padding: 0 12px 0 0;
+}
+
+footer {
+    color: white;
+    background-color: green;
+    text-align: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+footer .footer {
+    justify-content: space-between;
+    color: white;
+}
+
+.contatos {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    gap: 12px;
+    font-size: 18px;
+}
+
+.contatos a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+.ion-icons {
+    font-size: 26px;
+}
